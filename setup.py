@@ -3,7 +3,7 @@ import d2l
 
 requirements = [
     'jupyter==1.0.0',
-    'numpy==1.22.0',
+    'numpy==1.22',
     'matplotlib==3.5.1',
     'requests==2.25.1',
     'pandas==1.2.4'
@@ -12,7 +12,7 @@ requirements = [
 setup(
     name='d2l',
     version=d2l.__version__,
-    python_requires='>=3.5',
+    python_requires='>=3.12',
     author='D2L Developers',
     author_email='d2l.devs@gmail.com',
     url='https://d2l.ai',
